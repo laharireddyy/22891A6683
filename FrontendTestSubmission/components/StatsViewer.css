@@ -1,0 +1,83 @@
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.input-section {
+  display: flex;
+  gap: 8px;
+}
+
+.input-box {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.input-box:focus {
+  outline: none;
+  border-color: #1e90ff;
+  box-shadow: 0 0 6px rgba(30, 144, 255, 0.3);
+}
+
+.submit-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.submit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.error-box {
+  background-color: #ffeaea;
+  color: #c62828;
+  border: 1px solid #f4bebe;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.stats-output {
+  background-color: #e6f4ff;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  animation: fadeUp 0.5s ease;
+}
+
+.click-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 8px;
+}
+
+.click-item {
+  padding: 8px 0;
+  border-bottom: 1px solid #dddddd;
+  font-size: 15px;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

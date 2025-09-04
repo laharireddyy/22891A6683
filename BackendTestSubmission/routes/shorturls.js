@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { urlStore, isValidUrl, generateUniqueCode } = require("../services/urlStore");
+const { urlStore, isValidUrl, generateUniqueCode } = require("./services/urlStore");
 const { Log } = require("../../LoggingMiddleware");
 
 const PORT = 3000;

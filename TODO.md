@@ -1,0 +1,4 @@
+- [x] Install dependencies for BackendTestSubmission
+- [x] Start the backend server with node server.js
+- [x] Install dependencies for FrontendTestSubmission
+- [x] Start the frontend dev server with npm run dev
